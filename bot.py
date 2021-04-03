@@ -51,7 +51,7 @@ if __name__ == '__main__':
     print()
     ig_bot=InstagramBot(user,passwd)
     time.sleep(2)
-    #ig_bot.navigate('aumkar0803')
+    
     ig_bot.follow(follow_user)
     time.sleep(10)
     ig_bot.unfollow(ig_bot.bot_followed[0])
